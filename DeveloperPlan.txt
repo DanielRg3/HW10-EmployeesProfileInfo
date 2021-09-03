@@ -1,0 +1,18 @@
+EMPLOYEES INFORMATION
+{Generate a webpage that displays the team's basic info}
+
+Information:
+- Name
+- Job Description
+- ID
+- Email
+- GitHub Profile
+
+Developer Plan:
+1. Work on the Index.js
+ - Install the package.json
+ - Redact the questions for the user to type it at the terminal (index.js)
+2. Work con the HTML template
+3. Work on the CSS
+4. Work on the tests
+5. Redact the README

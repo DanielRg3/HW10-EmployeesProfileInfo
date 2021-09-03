@@ -8,5 +8,16 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielRg3/HW10-EmployeesProfileInfo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielRg3/HW10-EmployeesProfileInfo/issues"
+  },
+  "homepage": "https://github.com/DanielRg3/HW10-EmployeesProfileInfo#readme"
 }
