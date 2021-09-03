@@ -1,0 +1,28 @@
+body {
+    background-color: lemonchiffon;
+}
+
+header {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: purple;
+    color: seashell;
+    padding-bottom: 4px;
+}
+
+.job {
+    font-size: 36px;
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner {
+    font-size: 28px;
+    background-color: rgb(70, 180, 103);
+    max-width: 500px;
+    margin: 10px;
+}
+

@@ -1,6 +1,7 @@
 // We need to initialize the NPM with: $ npm init -y
 // We need to import the 'Inquirer' library with: $ npm i inquirer --save
-
+var employeeProfile = require("./employeeProfile");
+var fs = require('fs');
 var inquirer = require('inquirer');
 
 let questions = [
@@ -66,7 +67,7 @@ let questions = [
     {
         type: 'input',
         message: "Enter the employee's name:",
-        name: 'employee',
+        name: 'employeeName',
         validate: answer => {
             if(answer !== "") {
                 return true;
@@ -113,5 +114,12 @@ let questions = [
 ];
 
 inquirer.prompt(questions).then(function(response) {
-    console.log(response);
+    /* console.log(response); */
+
+    var content = employeeProfile(response);
+    console.log(content);
+    fs.writeFile("./index.html", content, function(err) {
+        if (err) throw err
+        console.log("success");
+    })
 });
