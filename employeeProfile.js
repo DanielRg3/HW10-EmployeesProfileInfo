@@ -8,6 +8,12 @@ function employeeProfile(response) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Profiles</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    CSS rules to specify families
+
+    font-family: 'Montserrat', sans-serif;
 </head>
 <body>
 
@@ -31,8 +37,8 @@ function employeeProfile(response) {
         </div>
         <div class="description">Job Description: ${response.employeeJob}</div>
         <div class="id">Employee's ID: ${response.employeeID}</div>
-        <div class="email">Employee's e-mail: ${response.employeeEmail}</div>
-        <div class="phone">Employee's GitHub ID: ${response.employeeHub}</div>
+        <div class="email">Employee's e-mail: <a href="https://gmail.com">${response.employeeEmail}</a></div>
+        <div class="phone">Employee's GitHub ID: <a href="https://github.com/${response.employeeHub}">${response.employeeHub}</a></div>
     </div>
     
 </body>

@@ -1,5 +1,11 @@
 # HomeWork#10 Employees Profile Info
 
+## Video Link:
+[Aplication Demo] (https://drive.google.com/file/d/1dfrzauinRzVBdMPgcrf5yQADZWWoul9n/view)
+
+## Objectives:
+The purpose of this project is to create an interface at the terminal in which a manager can write down her/his employees information. This information is transformed into an HTML that can be reviewed on a web page.
+
 ## Table of Content
 1. Package.jason installation (npm and inquirer)
 1. index.js
