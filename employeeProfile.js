@@ -37,7 +37,7 @@ function employeeProfile(response) {
         </div>
         <div class="description">Job Description: ${response.employeeJob}</div>
         <div class="id">Employee's ID: ${response.employeeID}</div>
-        <div class="email">Employee's e-mail: <a href="https://gmail.com">${response.employeeEmail}</a></div>
+        <div class="email">Employee's e-mail: <a href="mailto:${response.employeeEmail}">${response.employeeEmail}</a></div>
         <div class="phone">Employee's GitHub ID: <a href="https://github.com/${response.employeeHub}">${response.employeeHub}</a></div>
     </div>
     

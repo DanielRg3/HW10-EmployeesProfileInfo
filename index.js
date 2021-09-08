@@ -1,5 +1,6 @@
 // We need to initialize the NPM with: $ npm init -y
 // We need to import the 'Inquirer' library with: $ npm i inquirer --save
+//for the tests we install npm i --save-dev jest
 var employeeProfile = require("./employeeProfile");
 var fs = require('fs');
 var inquirer = require('inquirer');
